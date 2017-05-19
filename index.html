@@ -74,7 +74,7 @@
 								<form class="form-inline" id="fh5co-header-subscribe" onsubmit="return sendEmail();">
 									<div class="col-md-12 col-md-offset-0">
 										<div class="form-group">
-											<input type="email" class="form-control" id="email" name="email" required  placeholder="留下邮箱,等待精彩一刻开启！">
+											<input type="email" class="form-control" id="email" name="email" required oninvalid="this.setCustomValidity('请输入正确的电子邮件地址')" placeholder="留下邮箱,等待精彩一刻开启！">
 											<button type="submit" class="btn btn-primary">Send</button>
 										</div>
 									</div>
