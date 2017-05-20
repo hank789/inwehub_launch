@@ -74,7 +74,7 @@
 								<form class="form-inline" id="fh5co-header-subscribe" onsubmit="return sendEmail();">
 									<div class="col-md-12 col-md-offset-0">
 										<div class="form-group">
-											<input type="email" class="form-control" id="email" name="email" required oninvalid="this.setCustomValidity('请输入正确的电子邮件地址')" placeholder="留下邮箱,等待精彩一刻开启！">
+											<input type="email" class="form-control" id="email" name="email" required oninvalid="this.setCustomValidity('请输入正确的电子邮件地址')" oninput="setCustomValidity('')" placeholder="留下邮箱,等待精彩一刻开启！">
 											<button type="submit" class="btn btn-primary">Send</button>
 										</div>
 									</div>
@@ -93,7 +93,7 @@
 			<div class="row copyright">
 				<div class="col-md-12 text-center">
 					<p>
-						<small class="block">&copy; 2017 InweHub.com All Rights Reserved.</small> 
+						<small class="block"><a style="color: #828282;" href="mailto:hi@inwehub.com" target="_blank">联系邮箱</a> | Copyright &copy; 2017 InweHub.com All Rights Reserved.</small>
 					</p>
 				</div>
 			</div>
